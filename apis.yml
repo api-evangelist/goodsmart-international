@@ -1,8 +1,26 @@
 aid: goodsmart-international
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goodsmart-international.png
 name: GoodsMart International
-description: GoodsMart International is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: GoodsMart is a Cairo-based premium grocery and household e-commerce delivery startup serving
+  compounds across 6th of October, Sheikh Zayed, and New Cairo. Founded by Rami Fawzi and co-founders
+  (soft-launched 2014, officially launched 2015), it pioneered contactless overnight grocery delivery in
+  Egypt, dropping orders into a pre-installed GoodsMart box outside the customer's home between midnight
+  and 6am. The company operates a consumer-facing mobile app and web storefront for groceries, personal
+  care, and home-care products. It has raised roughly $4.37M from investors including 500 Global, Sawari
+  Ventures, Algebra Ventures, and Savour Ventures. As of this profile, GoodsMart publishes no public
+  developer API, documentation, or developer portal; this remains a company/lead record in the API
+  Evangelist network rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/goodsmart-international/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Grocery Delivery
+- E-Commerce
+- Q-Commerce
+- Consumer App
+- Retail
+- Egypt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/goodsmart-international-domain-security.yml
 - type: Website
   url: https://goodsmartegypt.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/goodsmart-egypt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
